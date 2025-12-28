@@ -1,6 +1,13 @@
 function Education() {
     const educationData = [
         {
+            icon: 'fas fa-user-graduate',
+            title: 'Bachelor of Science in Information Technology',
+            institution: 'University',
+            date: '2019 – 2023',
+            description: 'Software Development, Database Systems, Network Security, Project Management'
+        },
+        {
             icon: 'fas fa-graduation-cap',
             title: 'Diploma in Information Technology',
             institution: 'Kisii University',
@@ -13,14 +20,22 @@ function Education() {
             institution: 'Zalego Institute of Technology and Innovation',
             date: 'Dec 2016 – Jan 2018',
             description: 'HTML, CSS, JavaScript, PHP, MySQL, Responsive Web Design, UI Design'
-        },
-        {
-            icon: 'fas fa-school',
-            title: 'Kenya Certificate of Secondary Education',
-            institution: 'J.G. Kiereini Secondary School',
-            date: '2014 – 2017',
-            description: 'Mean Grade: C (Plain)'
         }
+    ]
+
+    const programmingSkills = [
+        { icon: 'fab fa-react', name: 'React', color: '#61dafb' },
+        { icon: 'fab fa-php', name: 'PHP', color: '#777bb4' },
+        { icon: 'fab fa-js-square', name: 'JavaScript', color: '#f7df1e' },
+        { icon: 'fab fa-python', name: 'Python', color: '#3776ab' },
+        { icon: 'fab fa-java', name: 'Java', color: '#ed8b00' },
+        { icon: 'fab fa-html5', name: 'HTML5', color: '#e34f26' },
+        { icon: 'fab fa-css3-alt', name: 'CSS3', color: '#1572b6' },
+        { icon: 'fas fa-database', name: 'MySQL', color: '#4479a1' },
+        { icon: 'fab fa-node-js', name: 'Node.js', color: '#339933' },
+        { icon: 'fab fa-git-alt', name: 'Git', color: '#f05032' },
+        { icon: 'fab fa-wordpress', name: 'WordPress', color: '#21759b' },
+        { icon: 'fab fa-bootstrap', name: 'Bootstrap', color: '#7952b3' },
     ]
 
     const learningItems = [
@@ -46,6 +61,18 @@ function Education() {
                             </div>
                         </div>
                     ))}
+                </div>
+
+                <div className="certifications">
+                    <h3 className="subsection-title">Programming Skills & Technologies</h3>
+                    <div className="programming-badges">
+                        {programmingSkills.map((skill, idx) => (
+                            <div className="prog-badge" key={idx} style={{ '--badge-color': skill.color }}>
+                                <i className={skill.icon}></i>
+                                <span>{skill.name}</span>
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
                 <div className="certifications">

@@ -1040,6 +1040,42 @@ body {
   color: var(--text-primary);
 }
 
+/* Programming Badges */
+.programming-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.prog-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 0.75rem 1.25rem;
+  transition: var(--transition-normal);
+  cursor: default;
+}
+
+.prog-badge:hover {
+  transform: translateY(-3px);
+  border-color: var(--badge-color, var(--accent));
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.prog-badge i {
+  font-size: 1.5rem;
+  color: var(--badge-color, var(--accent));
+}
+
+.prog-badge span {
+  font-weight: 500;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
 .cert-grid {
   display: flex;
   flex-wrap: wrap;

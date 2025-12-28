@@ -15,6 +15,13 @@ function Downloads() {
             color: '#3498db'
         },
         {
+            icon: 'fas fa-user-graduate',
+            title: 'BSc Degree Certificate',
+            description: 'Bachelor of Science in Information Technology',
+            file: '/DEGREE CERTFICATE.pdf',
+            color: '#1e40af'
+        },
+        {
             icon: 'fas fa-code',
             title: 'Programmer Certificate',
             description: 'Certificate in Web Design from Zalego Institute of Technology',
