@@ -72,7 +72,7 @@ function Hero() {
                 <div className="hero-image">
                     <div className="image-wrapper">
                         <div className="image-glow"></div>
-                        <img src="/martins image.JPG" alt="Martin Kimiti Munyua" className="profile-image" />
+                        <img src={`${import.meta.env.BASE_URL}martins image.JPG`} alt="Martin Kimiti Munyua" className="profile-image" />
                         <div className="image-border"></div>
                     </div>
                     <div className="experience-badge">

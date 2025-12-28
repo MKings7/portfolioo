@@ -60,7 +60,7 @@ function Downloads() {
 
     const handleDownload = (file, title) => {
         const link = document.createElement('a')
-        link.href = file
+        link.href = import.meta.env.BASE_URL + file.substring(1)
         link.download = title + '.pdf'
         document.body.appendChild(link)
         link.click()

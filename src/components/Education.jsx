@@ -79,28 +79,28 @@ function Education() {
                     <h3 className="subsection-title">Certifications & Badges</h3>
                     <div className="cert-grid">
                         <div className="cert-card">
-                            <img src="/martin-munyua-canva-essentials-badge.png" alt="Canva Essentials Badge" className="cert-badge" />
+                            <img src={`${import.meta.env.BASE_URL}martin-munyua-canva-essentials-badge.png`} alt="Canva Essentials Badge" className="cert-badge" />
                             <div className="cert-info">
                                 <h4>Canva Essentials</h4>
                                 <p>Digital Design Fundamentals</p>
                             </div>
                         </div>
                         <div className="cert-card">
-                            <img src="/martin-munyua-graphic-design-essentials-badge.png" alt="Graphic Design Badge" className="cert-badge" />
+                            <img src={`${import.meta.env.BASE_URL}martin-munyua-graphic-design-essentials-badge.png`} alt="Graphic Design Badge" className="cert-badge" />
                             <div className="cert-info">
                                 <h4>Graphic Design Essentials</h4>
                                 <p>Canva Design Certification</p>
                             </div>
                         </div>
                         <div className="cert-card">
-                            <img src="/martin-munyua-ai-in-the-classroom-badge.png" alt="AI in the Classroom Badge" className="cert-badge" />
+                            <img src={`${import.meta.env.BASE_URL}martin-munyua-ai-in-the-classroom-badge.png`} alt="AI in the Classroom Badge" className="cert-badge" />
                             <div className="cert-info">
                                 <h4>AI in the Classroom</h4>
                                 <p>AI in Education Certification</p>
                             </div>
                         </div>
                         <div className="cert-card">
-                            <img src="/martin-munyua-teacher-essentials-badge.png" alt="Teacher Essentials Badge" className="cert-badge" />
+                            <img src={`${import.meta.env.BASE_URL}martin-munyua-teacher-essentials-badge.png`} alt="Teacher Essentials Badge" className="cert-badge" />
                             <div className="cert-info">
                                 <h4>Teacher Essentials</h4>
                                 <p>Teaching Excellence Certification</p>
