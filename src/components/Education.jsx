@@ -106,6 +106,34 @@ function Education() {
                                 <p>Teaching Excellence Certification</p>
                             </div>
                         </div>
+                        <div className="cert-card">
+                            <img src={`${import.meta.env.BASE_URL}GEMINI CERTIFIED EDUCATOR.png`} alt="Gemini Certified Educator Badge" className="cert-badge" />
+                            <div className="cert-info">
+                                <h4>Gemini Certified Educator</h4>
+                                <p>Gemini AI Education Certification</p>
+                            </div>
+                        </div>
+                        <div className="cert-card">
+                            <img src={`${import.meta.env.BASE_URL}GEMINI CERTIFIED FOR FACULTY.png`} alt="Gemini Certified for Faculty Badge" className="cert-badge" />
+                            <div className="cert-info">
+                                <h4>Gemini Certified for Faculty</h4>
+                                <p>Gemini AI Higher Education</p>
+                            </div>
+                        </div>
+                        <div className="cert-card">
+                            <img src={`${import.meta.env.BASE_URL}GOOGLE LEVEL ONE EDUCATOR.png`} alt="Google Certified Educator Level 1 Badge" className="cert-badge" />
+                            <div className="cert-info">
+                                <h4>Google Certified Educator L1</h4>
+                                <p>Google Tools Integration</p>
+                            </div>
+                        </div>
+                        <div className="cert-card">
+                            <img src={`${import.meta.env.BASE_URL}gemini badge.png`} alt="Gemini Certified Student Badge" className="cert-badge" />
+                            <div className="cert-info">
+                                <h4>Gemini Certified Student</h4>
+                                <p>Gemini AI Student Certification</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

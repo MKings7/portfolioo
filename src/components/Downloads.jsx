@@ -55,6 +55,34 @@ function Downloads() {
             description: 'Teacher Essentials certification from Canva',
             file: '/martin-munyua-teacher-essentials-certificate.pdf',
             color: '#059669'
+        },
+        {
+            icon: 'fab fa-google',
+            title: 'Gemini Certified Educator',
+            description: 'Proficiency in using Gemini AI for education',
+            file: '/GEMINI CERTIFIED EDUCATOR.pdf',
+            color: '#4285F4'
+        },
+        {
+            icon: 'fas fa-university',
+            title: 'Gemini Certified for Faculty',
+            description: 'Integrating Gemini AI in higher education workflows',
+            file: '/GEMINI CERTIFIED FOR FACULTY.pdf',
+            color: '#0F9D58'
+        },
+        {
+            icon: 'fas fa-chalkboard',
+            title: 'Google Certified Educator Level 1',
+            description: 'Proficiency in integrating Google tools in the classroom',
+            file: '/GOOGLE LEVEL ONE EDUCATOR.pdf',
+            color: '#F4B400'
+        },
+        {
+            icon: 'fas fa-user-graduate',
+            title: 'Gemini Certified Student',
+            description: 'Demonstrated proficiency with Gemini AI for learning',
+            file: '/gemini certified student.pdf',
+            color: '#DB4437'
         }
     ]
 
