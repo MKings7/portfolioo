@@ -83,6 +83,13 @@ function Downloads() {
             description: 'Demonstrated proficiency with Gemini AI for learning',
             file: '/gemini certified student.pdf',
             color: '#DB4437'
+        },
+        {
+            icon: 'fas fa-award',
+            title: 'Google Certified Educator Level 2',
+            description: 'Advanced proficiency in integrating Google tools to transform teaching',
+            file: '/GOOGLE LEVEL 2 CERTIFICATE.pdf',
+            color: '#F4B400'
         }
     ]
 

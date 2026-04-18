@@ -35,6 +35,18 @@ function Projects() {
             title: 'IT Support Ticketing System',
             description: 'Glassmorphism UI ticketing system with priority queues, assignment workflows, and email notifications. Reduced backlog by 60%.',
             tech: ['PHP', 'React', 'MySQL', 'Next.js']
+        },
+        {
+            icon: 'fas fa-bullseye',
+            title: 'Staff KPI Appraisal System',
+            description: 'Comprehensive performance management platform with goal-setting, tracking, and multi-level approval workflows for staff evaluations.',
+            tech: ['PHP', 'MySQL', 'JavaScript', 'RBAC']
+        },
+        {
+            icon: 'fas fa-book-reader',
+            title: 'Staff Learning Management System',
+            description: 'Interactive training platform allowing staff to undergo internal courses, track learning progress, and earn certifications.',
+            tech: ['PHP', 'React', 'MySQL', 'LMS']
         }
     ]
 

@@ -29,6 +29,9 @@ function Skills() {
                 { name: 'Python', level: 80 },
                 { name: 'Java', level: 75 },
                 { name: 'SQL', level: 88 },
+                { name: 'Spring Boot', level: 75 },
+                { name: 'Vibe Coding', level: 85 },
+                { name: 'Programming with AI', level: 90 },
             ]
         },
         {

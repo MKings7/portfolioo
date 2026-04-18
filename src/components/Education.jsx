@@ -36,6 +36,9 @@ function Education() {
         { icon: 'fab fa-git-alt', name: 'Git', color: '#f05032' },
         { icon: 'fab fa-wordpress', name: 'WordPress', color: '#21759b' },
         { icon: 'fab fa-bootstrap', name: 'Bootstrap', color: '#7952b3' },
+        { icon: 'fas fa-leaf', name: 'Spring Boot', color: '#6db33f' },
+        { icon: 'fas fa-rocket', name: 'Vibe Coding', color: '#ff6b6b' },
+        { icon: 'fas fa-robot', name: 'Programming with AI', color: '#9b59b6' },
     ]
 
     const learningItems = [
@@ -132,6 +135,13 @@ function Education() {
                             <div className="cert-info">
                                 <h4>Gemini Certified Student</h4>
                                 <p>Gemini AI Student Certification</p>
+                            </div>
+                        </div>
+                        <div className="cert-card">
+                            <img src={`${import.meta.env.BASE_URL}GOOGLE LEVEL 2 CERTIFICATE.png`} alt="Google Certified Educator Level 2 Badge" className="cert-badge" />
+                            <div className="cert-info">
+                                <h4>Google Certified Educator L2</h4>
+                                <p>Advanced Tools Integration</p>
                             </div>
                         </div>
                     </div>
