@@ -3,9 +3,9 @@ function Education() {
         {
             icon: 'fas fa-user-graduate',
             title: 'Bachelor of Science in Information Technology',
-            institution: 'University',
-            date: '2019 – 2023',
-            description: 'Software Development, Database Systems, Network Security, Project Management'
+            institution: 'Mount Kenya University',
+            date: '2021 – 2025',
+            description: 'Second Class Honours (Upper Division). Coursework: Software Development, Database Systems, Network Security, Project Management'
         },
         {
             icon: 'fas fa-graduation-cap',
